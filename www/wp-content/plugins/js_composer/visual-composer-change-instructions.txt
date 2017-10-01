@@ -1,0 +1,9 @@
+Visual Composer - 5.2.1 - Paginas Modificadas
+
+1 - js_composer : Cabeçalho
+2 - js_composer : linha 89 - private $disable_updater = true;
+4 - js_composer : adicionar na linha 721 require do updater - require_once $this->path( 'APP_ROOT', 'updater.php' );
+5 - include/classes/settings/class-vc-settings.php : remover linha 126 a 130 - Product License
+6 - include/classes/settings/class-vc-license.php : remover linha 382 a 422 - function adminNoticeLicenseActivation()
+7 - include/classes/settings/class-vc-license.php : remover linha 332 a 337 - function vchideactivationmsg_vc11
+8 - include/classes/core/shared-templates/class-vc-shared-templates.php : comentar a linha 256 //$data[] = $newCategory;

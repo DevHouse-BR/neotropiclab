@@ -1,0 +1,52 @@
+.neotropic-institucional h1 {
+    color: rgba(255,255,255, 1.0);
+}
+.neotropic-institucional p {
+    color: rgba(255,255,255,0.6);
+    font-weight: 700;
+}
+.missao svg {
+    width: 120px;
+}
+#institucional-column .vc_column-inner {
+    background-position: center;
+    background-size: cover;
+}
+#atuacao {
+    color: white;
+}
+#atuacao h3 {
+    font-size: 2em;
+}
+.aio-icon-component.teamphoto .img-icon {
+    border-radius: 50% !important;
+}
+.teamphoto .aio-icon-header h3 {
+    font-weight: bold;
+}
+.frase blockquote {
+    border: none;
+    color: rgba(255,255,255,0.8);
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 2.3em;
+    text-shadow: 2px 2px rgba(8, 8, 8, 0.69);
+}
+.frase blockquote em {
+    color: #4CAF50;
+    font-family: Raleway;
+    font-size: 0.83em;
+    text-shadow: 2px 2px rgba(8, 8, 8, 0.69);
+}
+.frase p:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url(http://www.neotropiclab.com.br/wp-content/uploads/2017/09/quote.png) center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: -2px;
+    top: 2px;
+    pointer-events: none;
+    -webkit-user-select: none;
+}
