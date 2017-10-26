@@ -21,13 +21,13 @@
 // ** Configurações do MySQL - Você pode pegar estas informações
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'neotropiclab');
+define('DB_NAME', '************');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', '*************');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '************');
 
 /** Nome do host do MySQL */
 define('DB_HOST', 'localhost');
@@ -37,6 +37,7 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
 define('DB_COLLATE', '');
+
 
 /**#@+
  * Chaves únicas de autenticação e salts.

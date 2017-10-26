@@ -71,6 +71,8 @@ if ($sticky_menu == '1') {
     $sticky_menu = '';
 }
 
+$menu_overlay_switch = "";
+
 
 if ( $page_404 == '1' && is_404() ) {
     

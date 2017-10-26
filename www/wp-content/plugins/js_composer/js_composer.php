@@ -3,7 +3,7 @@
 Plugin Name: Visual Composer by Visualmodo
 Plugin URI: https://visualmodo.com
 Description: Drag and drop page builder for WordPress. Take full control over your WordPress site, build any layout you can imagine – no programming knowledge required.
-Version: 5.2.1
+Version: 5.3.0
 Author: Jared S Dias - https://visualmodo.com
 Author URI: https://visualmodo.com
 */
@@ -19,7 +19,7 @@ if ( ! defined( 'WPB_VC_VERSION' ) ) {
 	/**
 	 *
 	 */
-	define( 'WPB_VC_VERSION', '5.2.1' );
+	define( 'WPB_VC_VERSION', '5.3' );
 }
 
 /**
@@ -720,7 +720,7 @@ class Vc_Manager {
 			* Visualmodo Updater
 			*/
 			require_once $this->path( 'APP_ROOT', 'updater.php' );
-			
+
 			// DI Set template new modal editor.
 			require_once $this->path( 'EDITORS_DIR', 'popups/class-vc-templates-panel-editor.php' );
 			require_once $this->path( 'CORE_DIR', 'shared-templates/class-vc-shared-templates.php' );

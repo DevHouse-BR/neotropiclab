@@ -4,9 +4,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * WPBakery Visual Composer Plugin
+ * WPBakery WPBakery Page Builder Plugin
  *
- * @package WPBakeryVisualComposer
+ * @package WPBakeryPageBuilder
  *
  */
 
@@ -105,14 +105,14 @@ class Vc_License {
 	 * Output successful activation message
 	 */
 	function outputActivatedSuccess() {
-		$this->outputNotice( __( 'Visual Composer successfully activated.', 'js_composer' ), true );
+		$this->outputNotice( __( 'WPBakery Page Builder successfully activated.', 'js_composer' ), true );
 	}
 
 	/**
 	 * Output successful deactivation message
 	 */
 	function outputDeactivatedSuccess() {
-		$this->outputNotice( __( 'Visual Composer successfully deactivated.', 'js_composer' ), true );
+		$this->outputNotice( __( 'WPBakery Page Builder successfully deactivated.', 'js_composer' ), true );
 	}
 
 	/**

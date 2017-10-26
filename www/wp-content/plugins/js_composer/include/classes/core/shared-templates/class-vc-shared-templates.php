@@ -253,7 +253,6 @@ class Vc_Shared_Templates {
 					'category_weight' => 10,
 					'templates' => $this->getTemplates(),
 				);
-				//$data[] = $newCategory;
 			}
 		}
 
